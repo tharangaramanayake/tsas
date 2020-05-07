@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Skill Analysis System | Home</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel='stylesheet' type='text/css' href='styles.css' />
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div style="float:left; width:200px;"><a href="index.html"><img src='images/logo1.jpg' style="width:100%;"></a></div>
+				<div style="float:left;"><img src='images/logo2.jpg'></div>
+				<div style="float:right; width:200px;"><a href="http://www.sportsmin.gov.lk/main/"><img src='images/logo3.jpg'></a></div>
+			</div>
+			<div class="row">
+				<div id='cssmenu'>
+					<ul>
+						<li><a href='index.html'><span>Home</span></a></li>
+						<li class='has-sub'><a href='#'><span>Profile</span></a>
+							<ul>
+								<li><a href='createprofile.html'><span>Create Profile</span></a></li>
+								<li class='active'><a href='form.html'><span>MANAGE PERFORMANCE DETAILS</span></a></li>
+								<li><a href='YOURPERFORMANCEDETAILS.html'><span>YOUR PERFORMANCE DETAILS</span></a></li>	
+								<li class='last'><a href='#'><span>ATHLETE FITNESS DETAILS</span></a></li>
+							</ul>
+						</li>
+						<li><a href='#'><span>Events</span></a></li>
+						<li><a href='#'><span>Did You Know</span></a></li>
+						<li><a href='#'><span>Reports</span></a></li>
+						<li><a href='#'><span>Contact Us</span></a></li>
+						<li class='last'><a href='#'><span>About Us</span></a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>	
+		<div class="container">
+			<div class="row">
+				<table class="table table-bordered">
+					<caption><h3>MANAGE PERFORMANCE DETAILS</h3></caption>
+						<thead>
+							<tr>
+								<th>ATHLETE</br> ID</th>
+								<th>EVENT TYPE</th>
+								<th>DISCIPLINE</th>
+								<th colspan="8">COMPETITION</th>
+								<th>DATE/CITY/</br>VENUE/COUNTRY</th>
+								<th>RESULTSTIME</br>/DISTANCE</th>
+								<th>PLACE WON</th>
+								<th colspan="4">PARTICIPATION LEVEL</th>
+							</tr>
+							<tr>
+								<th rowspan="2"></th>
+								<th rowspan="2"></th>
+								<th rowspan="2"></th>
+								<th colspan="4">NATIONAL</th>
+								<th colspan="4">INTERNATIONAL</th>
+								<th rowspan="2"></th>
+								<th rowspan="2"></th>
+								<th rowspan="2"></th>
+								<th rowspan="2">S.L</th>
+								<th rowspan="2">C.L</th>
+								<th rowspan="2">U.L</th>
+								<th rowspan="2">N.L</th>
+							</tr>
+							<tr>
+								<th>S.L</th>
+								<th>C.L</th>
+								<th>U.L</th>
+								<th>N.L</th>
+								<th>S.L</th>
+								<th>C.L</th>
+								<th>U.L</th>
+								<th>N.L</th>
+							</tr>	
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<div class="controls">
+										<input  class="span1" type="text" placeholder="AthleteID">
+									</div>
+								</td>
+								<td>
+									<select  class="span1">
+										<option value="None">None</option>
+										<option value="Long Jump">Running Events</option>
+										<option value="Triple Jump">Jumping Events</option>
+										<option value="High Jump">Throwing Events</option>
+									</select>
+								</td>
+								<td>
+									<select  class="span1">
+											<option value="None">None</option>
+											<option value="100 Metres">100 Metres</option>
+											<option value="200 Metres">200 Metres</option>
+											<option value="400 Metres">400 Metres</option>
+											<option value="800 Metres">800 Metres</option>
+											<option value="1500 Metres">1500 Metres</option>
+											<option value="Hurdles">Hurdles</option>
+											<option value="Long Jump">Long Jump</option>
+											<option value="Triple Jump">Triple Jump</option>
+											<option value="High Jump">High Jump</option>
+											<option value="Pole Vault">Pole Vault</option>
+											<option value="Javelin Throw">Javelin Throw</option>
+											<option value="Discus Throw">Discus Throw</option>
+											<option value="Shot Put">Shot Put</option>
+											<option value="Hammer Throw">Hammer Throw</option>
+										</select>	
+								</td>
+								<td><form><input type="checkbox" name="national" value="school level"></form></td>
+								<td><form><input type="checkbox" name="national" value="club level"></form></td>
+								<td><form><input type="checkbox" name="national" value="university level"></form></td>
+								<td><form><input type="checkbox" name="national" value="national level"></form></td>
+								<td><form><input type="checkbox" name="international" value="school level"></form></td>
+								<td><form><input type="checkbox" name="international" value="club level"></form></td>
+								<td><form><input type="checkbox" name="international" value="university level"></form></td>
+								<td><form><input type="checkbox" name="international" value="national level"></form></td>
+								<td><textarea class="span2"></textarea></td>
+								<td><textarea class="span1"></textarea></td>
+								<td><textarea class="span1"></textarea></td>
+								<td><form><input type="checkbox" name="participation" value="school level"></form></td>
+								<td><form><input type="checkbox" name="participation" value="club level"></form></td>
+								<td><form><input type="checkbox" name="participation" value="university level"></form></td>
+								<td><form><input type="checkbox" name="participation" value="national level"></form></td>
+							</tr>
+						</tbody>
+				</table>
+				<div class="span2 offset10">
+					<button class="btn" type="button">Clear</button>
+					<button class="btn btn-primary" type="button">Submit</button>
+				</div>	
+			</div>
+			<div class="row"></br>
+				<table class="table table-bordered">
+						<thead style='text-align:center;'>
+							<tr>
+								<th>ATHLETE</br> ID</th>
+								<th>EVENT TYPE</th>
+								<th>DISCIPLINE</th>
+								<th colspan="8">COMPETITION</th>
+								<th>DATE/CITY/</br>VENUE/COUNTRY</th>
+								<th>RESULTSTIME</br>/DISTANCE</th>
+								<th>PLACE WON</th>
+								<th colspan="4">PARTICIPATION LEVEL</th>
+							</tr>
+							<tr>
+								<th rowspan="2"></th>
+								<th rowspan="2"></th>
+								<th rowspan="2"></th>
+								<th colspan="4">NATIONAL</th>
+								<th colspan="4">INTERNATIONAL</th>
+								<th rowspan="2"></th>
+								<th rowspan="2"></th>
+								<th rowspan="2"></th>
+								<th rowspan="2">S.L</th>
+								<th rowspan="2">C.L</th>
+								<th rowspan="2">U.L</th>
+								<th rowspan="2">N.L</th>
+							</tr>
+							<tr>
+								<th>S.L</th>
+								<th>C.L</th>
+								<th>U.L</th>
+								<th>N.L</th>
+								<th>S.L</th>
+								<th>C.L</th>
+								<th>U.L</th>
+								<th>N.L</th>
+							</tr>	
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td>0571</td>
+								<td>Running Events</td>
+								<td>100 Metres</td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td><i class='icon-ok'></i></td>
+							</tr>
+							<tr>
+								<td>0571</td>
+								<td>Running Events</td>
+								<td>100 Metres</td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td><i class='icon-ok'></i></td>
+							</tr>
+							<tr>
+								<td>0571</td>
+								<td>Running Events</td>
+								<td>100 Metres</td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><i class='icon-ok'></i></td>
+								<td><i class='icon-ok'></i></td>
+							</tr>
+						</tbody>
+				</table>
+				<div class="span2 offset10">
+					<button class="btn" type="button">Edit</button>
+					<button class="btn btn-primary" type="button">Cancel</button>
+				</div>
+			</div>
+			<div class="row" style='background-color:black; margin-top:10px;'>
+				<div class='span4'>
+				<span style='color:white;'>Follow us on</span>
+					<a><img href='' src='images/icon1.png' width='40'></a>
+					<a><img href='' src='images/icon2.png' width='40'></a>
+					<a><img href='' src='images/icon3.png' width='40'></a>
+					<a><img href='' src='images/icon4.png' width='40'></a>
+				</div>
+				<div class="span8" style='text-align:center; padding-top:9px;'><span style='color:white; font-size:12px; padding:5px; '>Copyright &copy; The Skill Analysis System. All Rights Reserved.</span></div>
+			</div>
+		</div>	
+	</body>
+</html>
